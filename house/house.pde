@@ -13,13 +13,13 @@ void drawHouse(int x, int y) {
   noStroke();
   //new perameters
 fill(200, 120, 200);
-rect(200, 200, 100, 100);
+rect(x + 10, y + 10, 100, 100);
 fill(200, 150, 200);
-triangle(190, 200, 250, 125,310, 200);
+triangle(x, y + 10, x + 60, y - 60, x + 110, y + 10);
 fill(200, 100, 200);
-rect(250, 210, 40, 40);
+rect(x + 60, y + 20, 40, 40);
 fill(200, 2, 200);
-rect(210, 230, 35, 70);
+rect(x + 20, y + 40, 35, 70);
 
 }
 
